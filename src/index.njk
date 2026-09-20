@@ -1,0 +1,556 @@
+---
+# ---------------------------------------------------------------------------
+# Tout ce qui se trouve ici est modifiable par l'équipe depuis CloudCannon.
+# Ce qui n'y est pas (menu, pied de page, structure) reste verrouillé.
+# ---------------------------------------------------------------------------
+titre_principal: "Tous vos services au plus près de chez vous."
+
+intro: "30 communes, un seul site pour trouver vite l'information utile."
+
+image_bandeau: /images/bandeau-arche.webp
+image_bandeau_alt: "Le territoire de Thiers Dore et Montagne vu du ciel"
+
+image_grille: /images/bento-marche.webp
+image_grille_alt: "Le marché hebdomadaire sur la place"
+
+horaires:
+  - jour: "Mardi au vendredi"
+    heures: "12h – 13h45 et 17h – 20h"
+  - jour: "Samedi et dimanche"
+    heures: "10h – 18h30"
+  - jour: "Lundi"
+    heures: "Fermé"
+
+actualites:
+  - titre: "Terre de culture 2026-2027 : lancement de saison le samedi 26 septembre"
+    date: 2026-09-26
+    etiquette: "Culture"
+    etiquette_couleur: et-eau
+    image: /images/actu-1-terre-de-culture.webp
+    image_alt: "Affiche de la saison culturelle Terre de culture 2026-2027"
+    texte: "Avec la Ville de Thiers, les communes et les associations, l'interco présente toute l'offre culturelle du territoire dans un support unique."
+
+  - titre: "Découvrez le mag 14 de TDM l'interco"
+    date: 2026-09-15
+    etiquette: "Publications"
+    etiquette_couleur: et-olive
+    image: /images/actu-2-magazine.webp
+    image_alt: "Le magazine TDM l'interco numéro 14 posé sur une table"
+    texte: "Le nouveau numéro est distribué dans toutes les boîtes aux lettres du territoire, et disponible en ligne."
+
+  - titre: "À l'Orangerie, une rentrée riche en rencontres et en ateliers"
+    date: 2026-09-08
+    etiquette: "Familles"
+    etiquette_couleur: et-rouge
+    image: /images/actu-3-orangerie.webp
+    image_alt: "Atelier à L'Orangerie : familles et enfants sous la verrière"
+    texte: "Ateliers, spectacles et temps forts : le programme de la rentrée est en ligne, les inscriptions sont ouvertes."
+---
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Accueil — Thiers Dore et Montagne, l'interco</title>
+<meta name="description" content="Proposition de page d'accueil pour le site de la Communauté de communes Thiers Dore et Montagne.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+<!-- MAQUETTE : proposition de page d'accueil réalisée par Mathis Dufour pour la consultation « Refonte du site internet ». Contenus d'exemple listés dans CONTENUS_EXEMPLES.md -->
+<a class="evitement" href="#contenu">Aller au contenu</a>
+
+<header class="entete">
+  <div class="conteneur">
+    <a class="logo" href="#"><img src="/images/logo-entete.webp" width="302" height="56" alt="Thiers Dore et Montagne, l'interco — accueil"></a>
+
+    <nav class="nav" aria-label="Menu principal">
+      <ul class="nav-principale" id="nav-principale">
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-quotidien">Vivre au quotidien <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-quotidien">
+            <li><a href="#">Collecte et déchèteries</a></li>
+            <li><a href="#">Eau et assainissement (SPANC)</a></li>
+            <li><a href="#">Transports et mobilités</a></li>
+            <li><a href="#">Santé et solidarités</a></li>
+            <li><a href="#">Espace France Services</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-familles">Enfance et familles <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-familles">
+            <li><a href="#">Accueils de loisirs</a></li>
+            <li><a href="#">Périscolaire</a></li>
+            <li><a href="#">Petite enfance</a></li>
+            <li><a href="#">Portail familles (site externe)</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-habitat">Habitat <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-habitat">
+            <li><a href="#">Urbanisme</a></li>
+            <li><a href="#">Aides à la rénovation</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-loisirs">Loisirs <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-loisirs">
+            <li><a href="#">Bases de loisirs</a></li>
+            <li><a href="#">Médiathèques</a></li>
+            <li><a href="#">Randonnée et vélo</a></li>
+            <li><a href="#">Agenda du territoire</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-entreprendre">Entreprendre <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-entreprendre">
+            <li><a href="#">Zones d'activités</a></li>
+            <li><a href="#">Offres immobilières</a></li>
+            <li><a href="#">Offres d'emploi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <button class="nav-bouton" aria-expanded="false" aria-controls="sm-interco">L'interco <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M1 1l5 5 5-5"/></svg></button>
+          <ul class="sous-menu" id="sm-interco">
+            <li><a href="#">Le territoire et les 30 communes</a></li>
+            <li><a href="#">Vos élus</a></li>
+            <li><a href="#">Délibérations et publications</a></li>
+            <li><a href="#">Marchés publics</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-equipements">
+      <a class="pilule" href="#">Centre aquatique</a>
+      <a class="pilule" href="#">L'Orangerie</a>
+    </div>
+
+    <div class="entete-outils">
+      <button class="bouton-icone" type="button" data-focus-recherche>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="7"/><path d="m16 16 6 6"/></svg>
+        <span class="visuellement-cache">Rechercher</span>
+      </button>
+      <a class="lien-contact" href="#">Contact</a>
+      <button class="bouton-icone menu-mobile" type="button" aria-expanded="false" aria-controls="nav-principale">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="2.4"/><rect x="3" y="11" width="18" height="2.4"/><rect x="3" y="17" width="18" height="2.4"/></svg>
+        <span class="visuellement-cache">Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="contenu" tabindex="-1">
+
+  <section class="bandeau" aria-labelledby="titre-page">
+    <div class="conteneur">
+      <div>
+        <h1 id="titre-page" data-editable="text" data-prop="titre_principal" data-type="span">{{ titre_principal }}</h1>
+        <p class="bandeau-intro" data-editable="text" data-prop="intro" data-type="text">{{ intro | safe }}</p>
+        <form class="recherche" role="search" action="#" data-recherche>
+          <label for="recherche-site">Que cherchez-vous ?</label>
+          <div class="recherche-ligne">
+            <input id="recherche-site" name="q" type="search" autocomplete="off" placeholder="Collecte des déchets, horaires de la piscine…">
+            <button class="bouton-plein" type="submit">Rechercher</button>
+          </div>
+          <p class="recherche-message" aria-live="polite"></p>
+        </form>
+        <ul class="suggestions" aria-label="Recherches fréquentes">
+          <li><a href="#demarches">Collecte des déchets</a></li>
+          <li><a href="#demarches">Horaires de la piscine</a></li>
+          <li><a href="#demarches">Inscription accueil de loisirs</a></li>
+        </ul>
+      </div>
+      <div class="bandeau-visuel">
+        <div class="visuel-compo">
+
+          <svg class="visuel-calque" viewBox="0 0 600 400" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+            <path d="M0 0H100V100A100 100 0 0 1 0 0Z" fill="#2d7c7f"/>
+            <path d="M100 100V200H0A100 100 0 0 1 100 100Z" fill="#b2ab29"/>
+            <path d="M0 200H100A100 100 0 0 1 0 300Z" fill="#e6272d"/>
+            <path d="M0 300A100 100 0 0 1 100 400H0Z" fill="#b3c89f"/>
+            <path d="M500 0V100A100 100 0 0 1 400 0Z" fill="#e6272d"/>
+            <path d="M600 0V100H500A100 100 0 0 1 600 0Z" fill="#b2ab29"/>
+            <path d="M400 400V300A100 100 0 0 1 500 400Z" fill="#2d7c7f"/>
+            <path d="M500 300H600V400A100 100 0 0 1 500 300Z" fill="#36b094"/>
+            <path d="M500 400a50 50 0 0 1 100 0Z" fill="#b3c89f"/>
+          </svg>
+
+          <!-- Photo 1 : l'arche. Vraie balise <img>, forme d'arche appliquee en CSS (clip-path). -->
+          <img class="visuel-arche" src="{{ image_bandeau }}" alt="{{ image_bandeau_alt }}"
+               data-editable="image" data-prop-src="image_bandeau" data-prop-alt="image_bandeau_alt">
+
+          <svg class="visuel-calque" viewBox="0 0 600 400" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+            <circle cx="445" cy="200" r="90" fill="#b3c89f"/>
+          </svg>
+
+          <img class="visuel-rond" src="/images/bandeau-rond.webp" alt="" loading="lazy" decoding="async">
+
+          <svg class="visuel-calque" viewBox="0 0 600 400" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+            <path d="M100 400V330A70 70 0 0 1 170 400Z" fill="#36b094" style="mix-blend-mode:multiply"/>
+            <path d="M400 0A80 80 0 0 1 320 80V0Z" fill="#b2ab29" style="mix-blend-mode:multiply"/>
+            <path d="M400 400V300A100 100 0 0 0 300 400Z" fill="#e6272d"/>
+            <circle cx="57.6" cy="42.4" r="11" fill="#f7f5ef"/>
+            <circle cx="57.6" cy="157.6" r="11" fill="#16393a"/>
+            <circle cx="42.4" cy="242.4" r="11" fill="#f7f5ef"/>
+            <circle cx="42.4" cy="357.6" r="11" fill="#2d7c7f"/>
+            <circle cx="457.6" cy="42.4" r="11" fill="#b3c89f"/>
+            <circle cx="557.6" cy="57.6" r="11" fill="#16393a"/>
+            <circle cx="442.4" cy="357.6" r="11" fill="#b2ab29"/>
+            <circle cx="357.6" cy="357.6" r="11" fill="#f7f5ef"/>
+            <circle cx="550.0" cy="378.8" r="11" fill="#2d7c7f"/>
+          </svg>
+
+          <!-- Masques CSS : reprennent exactement les clipPath de la maquette d'origine. -->
+          <svg class="visuel-masques" aria-hidden="true" focusable="false" width="0" height="0">
+            <defs>
+              <clipPath id="masque-arche" clipPathUnits="objectBoundingBox">
+                <path d="M0,1 V0.375 A0.5,0.375 0 0 1 1,0.375 V1 Z"/>
+              </clipPath>
+              <clipPath id="masque-dome" clipPathUnits="objectBoundingBox">
+                <path d="M0,1 V0.7142857 A0.5,0.7142857 0 0 1 1,0.7142857 V1 Z"/>
+              </clipPath>
+            </defs>
+          </svg>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="demarches" id="demarches" aria-labelledby="titre-demarches">
+    <div class="conteneur">
+      <div class="entete-section">
+        <div>
+          <p class="surtitre">Accès rapides</p>
+          <h2 class="titre-section" id="titre-demarches">Les démarches les plus demandées</h2>
+        </div>
+        <a class="lien-fort" href="#">Toutes les démarches <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="bento">
+        <span class="coin" style="left:-4px;top:-4px" aria-hidden="true"></span>
+        <span class="coin" style="right:-3px;top:-4px" aria-hidden="true"></span>
+        <span class="coin" style="right:-3px;bottom:-3px" aria-hidden="true"></span>
+
+        <span class="filet-r1" aria-hidden="true"></span>
+        <article class="case case--grande c-collecte fond-olive">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="3" rx=".5"/><rect x="9" y="2.5" width="6" height="2.5"/><path d="M5 9h14l-1.6 12.5H6.6z"/><circle cx="12" cy="15" r="2.2" fill="var(--fond-pastille)"/></svg></span>
+          <div><h3><a href="#">Collecte et déchèteries</a></h3><p>Jours de collecte par commune, horaires des déchèteries, encombrants.</p></div>
+        </article>
+        <div class="case-vide v-1"><img src="{{ image_grille }}" alt="{{ image_grille_alt }}" loading="lazy" decoding="async" style="object-position:42% 50%" data-editable="image" data-prop-src="image_grille" data-prop-alt="image_grille_alt"><svg viewBox="0 0 40 40" aria-hidden="true" style="right:0;bottom:0"><path d="M40 0A40 40 0 0 0 0 40H40Z" fill="#b3c89f"/></svg></div>
+        <article class="case case--grande c-aqua fond-petrole">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M1.5 8a3.6 3.6 0 0 1 5.25 0 3.6 3.6 0 0 0 5.25 0 3.6 3.6 0 0 1 5.25 0 3.6 3.6 0 0 0 5.25 0v4.4a3.6 3.6 0 0 1-5.25 0 3.6 3.6 0 0 0-5.25 0 3.6 3.6 0 0 1-5.25 0 3.6 3.6 0 0 0-5.25 0z"/><path d="M1.5 15.4a3.6 3.6 0 0 1 5.25 0 3.6 3.6 0 0 0 5.25 0 3.6 3.6 0 0 1 5.25 0 3.6 3.6 0 0 0 5.25 0v4.4a3.6 3.6 0 0 1-5.25 0 3.6 3.6 0 0 0-5.25 0 3.6 3.6 0 0 1-5.25 0 3.6 3.6 0 0 0-5.25 0z"/></svg></span>
+          <div>
+            <h3><a href="#">Centre aquatique</a></h3>
+            <p>Horaires, tarifs et activités de la semaine.</p>
+            <div class="horaires">
+              <ul class="horaires-liste" data-editable="array" data-prop="horaires" data-direction="column">
+                {%- for ligne in horaires %}
+                <li data-editable="array-item">
+                  <span class="horaires-jour" data-editable="text" data-prop="jour" data-type="span">{{ ligne.jour }}</span>
+                  <span class="horaires-heures" data-editable="text" data-prop="heures" data-type="span">{{ ligne.heures }}</span>
+                </li>
+                {%- endfor %}
+              </ul>
+              <a href="#">Voir les horaires de la semaine</a>
+            </div>
+          </div>
+        </article>
+        <article class="case c-loisirs fond-rouge">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><circle cx="7.5" cy="5.5" r="3"/><circle cx="16.5" cy="7.5" r="2.6"/><path d="M2.5 21v-6a5 5 0 0 1 10 0v6z"/><path d="M12.5 21v-4.5a4 4 0 0 1 8 0V21z"/></svg></span>
+          <div><h3><a href="#">Accueils de loisirs</a></h3><p>Inscriptions et périscolaire.</p></div>
+        </article>
+        <article class="case c-spanc fond-eau">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2 5.5 13h13z"/><circle cx="12" cy="15" r="6.5"/></svg></span>
+          <div><h3><a href="#">Assainissement</a></h3><p>SPANC et contrôles.</p></div>
+        </article>
+        <article class="case c-bases fond-clair">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><circle cx="17" cy="6" r="3.5"/><path d="M1 21 9 7l8 14z"/><path d="M11 21l5-8 6 8z"/></svg></span>
+          <div><h3><a href="#">Bases de loisirs</a></h3><p>Baignade et activités d'été.</p></div>
+        </article>
+        <div class="case-vide v-2" aria-hidden="true"><!-- PHOTO : concert, site cctdm.fr, crédit à confirmer --><img src="/images/bento-concert.webp" alt="" loading="lazy" decoding="async" style="object-position:50% 50%"><svg viewBox="0 0 40 40" aria-hidden="true" style="right:0;bottom:0"><path d="M40 0A40 40 0 0 0 0 40H40Z" fill="#b3c89f"/></svg></div>
+        <article class="case case--petite c-habitat fond-petrole">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2 2 11h20z"/><path d="M4 11h16v10H4z"/><path d="M9.5 21v-4a2.5 2.5 0 0 1 5 0v4z" fill="var(--fond-pastille)"/></svg></span>
+          <h3><a href="#">Habitat et urbanisme</a></h3>
+        </article>
+        <article class="case case--petite c-emploi fond-olive">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 7V5a4 4 0 0 1 8 0v2h-2.2V5a1.8 1.8 0 0 0-3.6 0v2z"/><rect x="2" y="7" width="20" height="14" rx="1"/><rect x="2" y="12" width="20" height="2" fill="var(--fond-pastille)"/></svg></span>
+          <h3><a href="#">Offres d'emploi</a></h3>
+        </article>
+        <article class="case case--petite c-delib fond-rouge">
+          <span class="pastille"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M4 2h11l5 5v15H4z"/><path d="M15 2v5h5z" fill="var(--fond-pastille)"/><rect x="7" y="11" width="10" height="1.8" fill="var(--fond-pastille)"/><rect x="7" y="15" width="7" height="1.8" fill="var(--fond-pastille)"/></svg></span>
+          <h3><a href="#">Délibérations</a></h3>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="actus" aria-labelledby="titre-actus">
+    <div class="conteneur">
+      <div class="entete-section">
+        <div>
+          <p class="surtitre">Actualités</p>
+          <h2 class="titre-section" id="titre-actus">Ce qui se passe sur le territoire<span class="frise" aria-hidden="true"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 0a40 40 0 0 1 40 40H0z" fill="#b2ab29"/></svg><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect width="40" height="40" fill="#2d7c7f"/></svg><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 40a20 20 0 0 1 40 0z" fill="#e6272d"/></svg><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 8 38 40H2z" fill="#36b094"/></svg><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><circle cx="20" cy="22" r="18" fill="#b3c89f"/></svg></span></h2>
+        </div>
+        <a class="lien-fort" href="#">Toutes les actualités <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <!-- Les 3 cartes viennent de la cle "actualites" du front matter.
+           Les attributs de tableau donnent a l'equipe
+           l'ajout, la suppression et le glisser-deposer dans l'editeur visuel. -->
+      <ul class="actus-grille" data-editable="array" data-prop="actualites" data-direction="row">
+        {%- for actu in actualites %}
+        <li class="actu actu--carte" data-editable="array-item">
+          <div class="actu-visuel">
+            <img src="{{ actu.image }}" alt="{{ actu.image_alt }}" loading="lazy" decoding="async"
+                 data-editable="image" data-prop-src="image" data-prop-alt="image_alt">
+          </div>
+          <p class="meta">
+            <span class="etiquette {{ actu.etiquette_couleur }}" data-editable="text" data-prop="etiquette" data-type="span">{{ actu.etiquette }}</span>
+            <time datetime="{{ actu.date | dateIso }}">{{ actu.date | dateFr }}</time>
+          </p>
+          <h3><a href="#" data-editable="text" data-prop="titre" data-type="span">{{ actu.titre }}</a></h3>
+          <p class="accroche" data-editable="text" data-prop="texte" data-type="text">{{ actu.texte | safe }}</p>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <section class="agenda" aria-labelledby="titre-agenda">
+    <div class="conteneur">
+      <div class="entete-section">
+        <div>
+          <p class="surtitre">Agenda du territoire</p>
+          <h2 class="titre-section" id="titre-agenda">Les sorties près de chez vous</h2>
+        </div>
+        <a class="lien-fort" href="#">Tout l'agenda <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div class="filtres">
+        <div class="champ-select">
+          <label for="filtre-commune">Commune</label>
+          <select id="filtre-commune" data-filtre-commune>
+            <option value="">Toutes les communes</option>
+            <option>Arconsat</option><option>Aubusson-d&#x27;Auvergne</option><option>Augerolles</option><option>Celles-sur-Durolle</option><option>Chabreloche</option><option>Charnat</option><option>Châteldon</option><option>Courpière</option><option>Dorat</option><option>Escoutoux</option><option>La Monnerie-le-Montel</option><option>La Renaudie</option><option>Lachaux</option><option>Noalhat</option><option>Néronde-sur-Dore</option><option>Olmet</option><option>Palladuc</option><option>Paslières</option><option>Puy-Guillaume</option><option>Ris</option><option>Saint-Flour-l&#x27;Étang</option><option>Saint-Rémy-sur-Durolle</option><option>Saint-Victor-Montvianeix</option><option>Sainte-Agathe</option><option>Sauviat</option><option>Sermentizon</option><option>Thiers</option><option>Viscomtat</option><option>Vollore-Montagne</option><option>Vollore-Ville</option>
+          </select>
+        </div>
+        <fieldset class="groupe-filtres">
+          <legend class="visuellement-cache">Type d'événement</legend>
+          <button class="filtre" type="button" aria-pressed="true" data-type="">Tout</button>
+          <button class="filtre" type="button" aria-pressed="false" data-type="culture">Culture</button>
+          <button class="filtre" type="button" aria-pressed="false" data-type="emploi">Emploi</button>
+          <button class="filtre" type="button" aria-pressed="false" data-type="nature">Sport et nature</button>
+          <button class="filtre" type="button" aria-pressed="false" data-type="familles">Familles</button>
+        </fieldset>
+      </div>
+      <p class="agenda-resultat" aria-live="polite" data-resultat>4 événements</p>
+
+      <ul class="evenements">
+        <li class="evenement" data-type="culture" data-commune="Thiers">
+          <span class="forme"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 0a40 40 0 0 1 40 40H0z" fill="#2d7c7f"/></svg></span>
+          <p class="date-cal"><time datetime="2026-09-26"><span class="jour">26</span> <span class="mois">sept.</span></time></p>
+          <p class="heure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2.2"/></svg> <time datetime="2026-09-26">18h30</time></p>
+          <h3><a href="#">Terre de culture</a></h3>
+          <p>Spectacles, concerts et animations sur le territoire.</p>
+          <p class="lieu"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 22s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="10" r="2.6" fill="var(--blanc-casse)"/></svg> Thiers</p>
+          <p><span class="etiquette et-petrole">Culture</span></p>
+        </li>
+        <li class="evenement" data-type="emploi" data-commune="Thiers">
+          <span class="forme"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 40a20 20 0 0 1 40 0z" fill="#e6272d"/></svg></span>
+          <p class="date-cal"><time datetime="2026-10-03"><span class="jour">3</span> <span class="mois">oct.</span></time></p>
+          <p class="heure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2.2"/></svg> <time datetime="2026-10-03">9h – 17h</time></p>
+          <h3><a href="#">Forum de l'emploi</a></h3>
+          <p>Rencontrez les employeurs et les organismes de formation.</p>
+          <p class="lieu"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 22s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="10" r="2.6" fill="var(--blanc-casse)"/></svg> Thiers</p>
+          <p><span class="etiquette et-rouge">Emploi</span></p>
+        </li>
+        <li class="evenement" data-type="familles" data-commune="Thiers">
+          <span class="forme"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 8 38 40H2z" fill="#36b094"/></svg></span>
+          <p class="date-cal"><time datetime="2026-10-08"><span class="jour">8</span> <span class="mois">oct.</span></time></p>
+          <p class="heure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2.2"/></svg> <time datetime="2026-10-08">14h – 16h30</time></p>
+          <h3><a href="#">Atelier cuisine en famille</a></h3>
+          <p>Cuisiner, partager et découvrir de nouvelles recettes.</p>
+          <p class="lieu"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 22s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="10" r="2.6" fill="var(--blanc-casse)"/></svg> L'Orangerie, Thiers</p>
+          <p><span class="etiquette et-eau">Familles</span></p>
+        </li>
+        <li class="evenement" data-type="nature" data-commune="Courpière">
+          <span class="forme"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><circle cx="20" cy="22" r="18" fill="#b2ab29"/></svg></span>
+          <p class="date-cal"><time datetime="2026-10-11"><span class="jour">11</span> <span class="mois">oct.</span></time></p>
+          <p class="heure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2.2"/></svg> <time datetime="2026-10-11">9h30</time></p>
+          <h3><a href="#">Randonnée d'automne</a></h3>
+          <p>Une boucle accompagnée à la découverte des paysages.</p>
+          <p class="lieu"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 22s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="10" r="2.6" fill="var(--blanc-casse)"/></svg> Courpière</p>
+          <p><span class="etiquette et-olive">Sport et nature</span></p>
+        </li>
+      </ul>
+      <p class="agenda-note">Événements de l'interco, des communes et de nos partenaires, mis à jour automatiquement.</p>
+    </div>
+  </section>
+
+  <section class="territoire" id="territoire" aria-labelledby="titre-territoire">
+    <div class="conteneur">
+      <div class="entete-section">
+        <div>
+          <p class="surtitre">Le territoire en bref</p>
+          <h2 class="titre-section" id="titre-territoire">30 communes, un même bassin de vie</h2>
+        </div>
+      </div>
+
+      <div class="territoire-grille">
+        <div class="carte-bloc" data-carte>
+          <svg class="carte" viewBox="-10 -10 540 765" role="group" aria-labelledby="carte-titre"><title id="carte-titre">Carte des 30 communes de Thiers Dore et Montagne</title><a href="#territoire" class="commune" data-nom="Arconsat" aria-label="Arconsat"><path class="col-petrole" d="M403 276 403 272 401 267 408 267 413 263 410 256 411 252 419 245 421 238 426 239 430 238 431 228 428 204 473 223 475 226 478 236 483 244 498 251 500 261 511 274 516 290 517 290 520 301 516 304 506 305 510 310 505 313 506 318 503 319 496 331 490 329 491 335 486 337 484 334 481 335 478 333 476 336 469 333 467 336 461 335 455 332 451 323 443 317 439 317 437 310 434 311 431 292 424 286 410 280 406 276Z"/></a><a href="#territoire" class="commune" data-nom="Aubusson-d&#x27;Auvergne" aria-label="Aubusson-d&#x27;Auvergne"><path class="col-vert-eau" d="M254 576 261 578 277 574 283 569 289 569 293 565 305 562 307 562 310 567 314 568 318 567 326 570 326 576 320 580 313 591 307 594 305 597 299 600 297 600 293 610 294 614 290 620 284 621 282 625 279 626 278 619 275 618 270 621 268 618 261 619 260 617 253 615 257 613 259 604 254 590 244 586 248 580Z"/></a><a href="#territoire" class="commune" data-nom="Augerolles" aria-label="Augerolles"><path class="col-petrole" d="M266 696 269 687 267 671 259 656 258 640 264 624 263 619 268 618 270 621 275 618 278 619 279 626 282 625 284 621 290 620 294 614 293 610 297 600 299 600 305 597 307 594 313 591 320 580 326 576 330 580 336 577 332 570 332 567 338 562 350 561 368 566 369 563 375 564 377 560 380 558 382 561 387 561 392 559 396 561 409 558 415 560 415 563 420 568 421 574 425 580 426 588 421 588 418 590 418 595 412 596 405 602 399 610 410 623 414 624 414 638 412 640 405 630 397 628 392 624 386 612 381 611 379 607 372 611 365 611 363 615 356 621 358 623 358 633 353 638 354 644 350 645 351 656 345 663 344 666 347 673 344 681 342 682 342 692 339 691 336 693 336 695 333 696 331 694 325 696 317 696 315 693 302 694 300 695 298 700 294 700 292 704 286 702 283 704 275 702 274 706 272 703 271 695Z"/></a><a href="#territoire" class="commune" data-nom="Celles-sur-Durolle" aria-label="Celles-sur-Durolle"><path class="col-vert-clair" d="M282 389 281 375 276 367 281 362 285 349 291 345 291 342 293 339 302 337 303 335 315 334 326 335 333 341 335 341 338 332 342 331 348 325 354 326 350 314 344 311 340 312 338 308 342 297 339 293 342 290 341 285 343 277 352 276 354 279 356 278 363 259 368 256 371 240 380 236 378 232 388 228 388 225 391 224 393 217 400 217 408 220 412 218 416 214 424 211 428 204 431 228 430 238 426 239 421 238 419 245 411 252 410 256 413 263 408 267 401 267 404 280 401 282 399 291 397 314 395 323 397 327 405 325 408 319 422 320 423 332 419 339 418 345 422 354 417 363 419 366 419 370 417 374 407 384 397 383 398 391 389 389 372 410 356 413 349 416 344 409 338 406 334 401 315 399 308 399 303 401 299 400 295 396 290 396Z"/></a><a href="#territoire" class="commune" data-nom="Chabreloche" aria-label="Chabreloche"><path class="col-vert-eau" d="M403 276 406 276 410 280 424 286 431 292 434 311 437 310 439 317 443 317 451 323 455 332 461 335 468 355 470 358 481 352 477 358 479 361 481 368 470 373 469 377 462 383 461 386 447 378 440 368 435 365 422 354 418 345 419 339 423 332 422 320 408 319 405 325 397 327 395 323 397 314 399 291 401 282 404 280Z"/></a><a href="#territoire" class="commune" data-nom="Charnat" aria-label="Charnat"><path class="col-petrole" d="M0 167 13 169 15 165 13 159 14 152 16 151 25 152 31 157 43 154 46 151 48 141 65 159 63 162 67 164 67 168 65 172 61 172 60 168 56 168 59 174 51 177 47 180 50 184 43 187 34 195 32 205 23 209 13 201 20 190 21 182 12 182 0 171Z"/></a><a href="#territoire" class="commune" data-nom="Châteldon" aria-label="Châteldon"><path class="col-rouge" d="M130 78 135 74 142 73 148 73 153 76 163 72 169 66 170 76 203 59 207 60 213 55 219 54 227 48 232 50 240 47 244 52 253 57 253 60 246 74 253 75 260 94 260 98 266 102 263 109 267 114 267 121 277 131 285 134 279 141 275 143 272 155 276 156 276 160 271 165 271 169 268 169 261 165 254 163 249 159 246 161 244 159 234 163 230 159 228 160 219 164 219 172 214 174 208 168 205 167 198 154 196 153 191 156 190 150 186 150 172 145 164 134 158 131 160 117 147 106 145 99 145 93 146 91 138 84 137 81 134 81 133 78Z"/></a><a href="#territoire" class="commune" data-nom="Courpière" aria-label="Courpière"><path class="col-sable" d="M157 645 146 639 137 640 135 627 126 618 139 620 141 616 141 594 143 591 149 589 152 578 157 573 150 556 143 553 143 547 139 546 140 543 147 536 146 532 153 520 161 517 167 508 179 506 179 510 186 513 196 507 200 508 201 518 208 516 214 525 225 523 227 528 235 532 241 541 243 552 254 576 248 580 244 586 254 590 259 604 257 613 253 615 260 617 261 619 263 619 264 624 258 640 259 656 248 646 224 631 208 614 197 615 191 614 180 633 178 644 172 642 172 639 166 637Z"/></a><a href="#territoire" class="commune" data-nom="Dorat" aria-label="Dorat"><path class="col-olive" d="M56 249 58 250 63 247 66 249 66 255 68 257 73 255 81 258 88 259 94 254 95 249 103 231 104 232 108 231 113 235 115 244 120 241 131 241 133 232 136 232 139 245 135 254 143 262 149 264 158 270 153 288 157 295 152 303 144 313 141 311 137 312 135 316 120 329 99 338 96 330 98 327 108 324 106 316 86 303 85 299 73 298 69 300 67 296 58 298 53 304 40 293 43 283 47 277 49 261 55 255Z"/></a><a href="#territoire" class="commune" data-nom="Escoutoux" aria-label="Escoutoux"><path class="col-olive" d="M179 510 180 500 185 498 185 495 183 491 174 490 173 485 166 477 160 476 163 454 162 449 157 447 153 439 150 439 151 432 144 426 143 423 162 418 169 409 174 406 188 406 191 413 204 415 218 422 221 422 227 410 233 410 240 404 251 406 258 400 263 401 275 394 281 380 282 389 285 393 286 400 282 406 275 412 271 426 273 432 272 437 265 441 265 446 267 447 267 453 265 470 262 479 255 479 249 484 246 497 243 502 243 513 234 522 214 525 208 516 201 518 200 508 196 507 186 513Z"/></a><a href="#territoire" class="commune" data-nom="La Monnerie-le-Montel" aria-label="La Monnerie-le-Montel"><path class="col-rouge" d="M314 311 318 315 330 318 332 316 340 317 348 325 342 331 338 332 335 341 333 341 326 335 315 334 303 335 302 337 293 339 291 342 291 345 285 349 284 354 278 354 277 351 273 351 269 347 271 344 267 326 271 331 281 328 283 313 286 315 288 313 290 309 294 309 304 313Z"/></a><a href="#territoire" class="commune" data-nom="La Renaudie" aria-label="La Renaudie"><path class="col-vert-clair" d="M412 640 414 638 414 624 410 623 399 610 405 602 412 596 418 595 418 590 421 588 426 588 425 580 421 574 420 568 415 563 415 560 418 563 428 559 433 560 435 566 445 563 451 564 451 569 460 575 460 577 465 583 471 583 483 588 486 595 496 603 498 603 507 615 506 620 500 622 496 632 492 635 485 645 486 651 482 658 477 663 474 663 471 665 470 669 460 668 457 664 453 664 452 661 444 658 438 657 430 658 417 644 414 644Z"/></a><a href="#territoire" class="commune" data-nom="Lachaux" aria-label="Lachaux"><path class="col-sable" d="M294 136 277 131 267 121 267 114 263 109 266 102 260 98 260 94 253 75 246 74 253 60 253 57 244 52 240 47 232 50 227 48 219 54 213 55 209 58 209 40 206 38 213 34 215 13 219 11 240 14 246 12 250 14 259 7 262 1 268 0 269 2 273 0 276 3 275 7 280 10 279 12 282 15 286 15 289 26 290 27 291 36 300 42 301 46 305 51 307 64 319 75 324 85 326 98 329 100 332 110 328 115 333 121 331 131 334 138 333 141 329 139 326 141 320 136 314 135 301 134Z"/></a><a href="#territoire" class="commune" data-nom="Noalhat" aria-label="Noalhat"><path class="col-petrole" d="M56 249 55 247 60 242 61 237 60 234 55 233 53 230 55 227 59 227 52 222 50 218 51 204 57 208 61 206 71 212 84 209 89 210 93 217 100 217 102 223 106 224 106 227 102 232 95 249 94 254 90 258 81 258 73 255 68 257 66 255 66 249 63 247 58 250Z"/></a><a href="#territoire" class="commune" data-nom="Néronde-sur-Dore" aria-label="Néronde-sur-Dore"><path class="col-vert-clair" d="M89 506 95 505 102 498 118 490 122 483 119 478 132 466 137 452 143 446 154 443 157 447 162 449 163 454 160 476 166 477 173 485 174 490 183 491 185 495 185 498 180 500 179 506 167 508 161 517 153 520 146 532 147 536 140 543 139 525 135 523 135 514 131 512 131 509 133 507 132 503 114 506 109 509 102 510 98 513 95 512Z"/></a><a href="#territoire" class="commune" data-nom="Olmet" aria-label="Olmet"><path class="col-vert-eau" d="M336 695 336 693 342 692 342 682 344 681 347 673 344 666 345 663 351 656 350 645 354 644 353 638 358 633 358 623 356 621 363 615 365 611 372 611 379 607 381 611 386 612 392 624 397 628 405 630 414 644 420 648 420 652 413 657 413 677 416 692 411 699 406 701 403 700 399 704 394 706 394 710 403 715 409 720 406 722 411 731 414 732 412 736 415 742 414 745 397 741 389 743 387 739 390 730 387 721 390 711 382 700 375 697 366 695 361 698 348 697 342 700Z"/></a><a href="#territoire" class="commune" data-nom="Palladuc" aria-label="Palladuc"><path class="col-sable" d="M318 315 312 308 317 291 315 290 317 286 314 279 312 277 311 273 304 271 306 263 306 248 303 245 304 240 303 235 310 238 322 234 328 236 331 234 336 235 339 232 339 225 350 223 352 226 359 226 365 216 371 212 373 212 376 217 388 217 399 210 397 204 404 194 403 181 411 182 417 187 428 204 424 211 416 214 412 218 408 220 400 217 393 217 391 224 388 225 388 228 378 232 380 236 371 240 368 256 363 259 356 278 354 279 352 276 343 277 341 285 342 290 339 293 342 297 338 308 340 312 344 311 350 314 354 326 348 325 340 317 332 316 330 318Z"/></a><a href="#territoire" class="commune" data-nom="Paslières" aria-label="Paslières"><path class="col-vert-eau" d="M198 277 188 281 177 272 170 272 167 275 166 284 163 283 164 273 155 269 135 254 139 245 136 232 133 232 131 241 120 241 115 244 113 235 108 231 104 232 103 231 106 227 106 224 102 223 100 217 93 217 89 210 84 209 71 212 61 206 57 208 49 202 52 196 49 194 45 194 44 191 50 184 47 180 51 177 59 174 56 168 60 168 61 172 65 172 67 168 67 164 74 168 86 159 90 168 97 170 113 171 131 182 137 179 140 182 142 179 155 178 159 182 172 183 170 185 182 215 183 224 187 229 195 225 213 227 218 230 235 228 253 232 256 238 233 252 229 262 225 261 218 269 210 271 202 270 208 277Z"/></a><a href="#territoire" class="commune" data-nom="Puy-Guillaume" aria-label="Puy-Guillaume"><path class="col-sable" d="M60 153 73 117 81 119 83 113 86 111 92 112 95 109 94 101 91 95 91 85 88 81 88 74 92 68 103 68 107 69 108 68 122 75 125 74 130 76 134 81 137 81 138 84 146 91 145 93 145 99 147 106 160 117 158 131 164 134 172 145 186 150 190 150 191 156 196 153 198 154 205 167 208 168 214 174 210 181 206 184 207 187 201 188 189 193 185 191 178 192 172 183 159 182 155 178 142 179 140 182 137 179 131 182 113 171 97 170 90 168 86 159 74 168 63 162 65 159Z"/></a><a href="#territoire" class="commune" data-nom="Ris" aria-label="Ris"><path class="col-vert-clair" d="M98 46 95 43 94 37 96 34 93 29 107 22 126 21 134 24 143 16 150 21 157 17 168 23 169 26 172 26 169 18 165 12 165 8 169 6 176 7 187 4 190 5 193 7 191 14 200 24 207 18 214 19 215 22 213 28 213 34 206 38 209 40 209 58 170 76 169 66 163 72 153 76 148 73 142 73 135 74 130 78 130 76 125 74 122 75 108 68 107 69 103 68 92 68 95 63 92 60 88 59 87 57 90 53 97 54 100 51Z"/></a><a href="#territoire" class="commune" data-nom="Saint-Flour-l&#x27;Étang" aria-label="Saint-Flour-l&#x27;Étang"><path class="col-olive" d="M157 645 166 637 172 639 172 642 178 644 175 653 175 658 185 660 186 662 183 668 176 671 177 674 172 680 172 694 170 697 173 702 169 704 168 711 156 715 151 714 148 717 146 715 142 715 137 727 134 726 128 734 122 729 125 707 120 707 116 705 117 700 113 698 109 693 114 684 118 681 122 680 128 671 132 668 134 669 136 666 136 660 137 654 143 652 152 651Z"/></a><a href="#territoire" class="commune" data-nom="Saint-Rémy-sur-Durolle" aria-label="Saint-Rémy-sur-Durolle"><path class="col-petrole" d="M195 279 198 277 208 277 202 270 210 271 218 269 225 261 229 262 233 252 251 240 256 238 262 238 267 243 285 235 294 237 298 235 303 235 304 240 303 245 306 248 306 263 304 271 311 273 312 277 314 279 317 286 315 290 317 291 312 308 314 311 304 313 294 309 290 309 288 313 286 315 283 313 281 328 275 331 271 331 268 325 266 307 264 303 257 304 250 302 246 303 227 320 227 315 224 311 223 305 206 306 208 300 203 293 196 294 193 287 194 284 197 283Z"/></a><a href="#territoire" class="commune" data-nom="Saint-Victor-Montvianeix" aria-label="Saint-Victor-Montvianeix"><path class="col-vert-clair" d="M172 183 178 192 185 191 189 193 201 188 203 188 207 187 206 184 210 181 214 174 219 172 219 164 228 160 230 159 234 163 244 159 246 161 249 159 254 163 261 165 268 169 271 169 271 165 276 160 276 156 272 155 275 143 279 141 285 134 294 136 301 134 314 135 320 136 326 141 329 139 333 141 334 138 349 126 356 132 379 138 391 137 402 144 409 160 402 163 411 182 403 181 404 194 397 204 399 210 388 217 376 217 373 212 371 212 365 216 359 226 352 226 350 223 339 225 339 232 336 235 331 234 328 236 322 234 310 238 303 235 298 235 294 237 285 235 267 243 262 238 256 238 253 232 248 230 226 228 218 230 213 227 195 225 187 229 183 224 182 215 170 185Z"/></a><a href="#territoire" class="commune" data-nom="Sainte-Agathe" aria-label="Sainte-Agathe"><path class="col-vert-eau" d="M285 393 290 396 295 396 299 400 303 401 308 399 315 399 336 402 355 421 365 436 369 439 371 448 374 452 369 474 370 486 366 498 364 496 362 488 352 480 348 480 343 484 339 484 329 481 321 473 313 474 303 472 298 474 284 468 272 469 267 462 267 447 265 446 265 441 272 437 273 432 271 426 275 412 282 406 286 400Z"/></a><a href="#territoire" class="commune" data-nom="Sauviat" aria-label="Sauviat"><path class="col-vert-clair" d="M175 653 180 633 191 614 197 615 208 614 224 631 248 646 259 656 267 671 269 687 266 694 266 703 259 702 255 707 252 707 242 705 239 706 229 705 226 707 223 712 219 713 218 710 218 706 212 700 206 701 204 697 190 691 190 687 185 679 181 678 177 674 176 671 183 668 186 662 185 660 175 658Z"/></a><a href="#territoire" class="commune" data-nom="Sermentizon" aria-label="Sermentizon"><path class="col-petrole" d="M80 554 78 543 80 539 83 525 88 525 88 523 93 520 96 515 102 510 109 509 114 506 132 503 133 507 131 509 131 512 135 514 135 523 139 525 139 546 143 547 143 553 150 556 157 573 152 578 149 589 143 591 141 594 141 616 139 620 132 620 129 618 114 624 109 620 100 620 85 616 87 608 79 609 74 603 75 592 72 585Z"/></a><a href="#territoire" class="commune" data-nom="Thiers" aria-label="Thiers"><path class="col-sable" d="M99 352 101 343 99 338 120 329 135 316 137 312 141 311 144 313 148 309 157 295 153 288 158 270 164 273 163 283 166 284 167 275 170 272 177 272 188 281 195 279 197 283 194 284 193 287 196 294 203 293 208 300 206 306 223 305 224 311 227 315 227 320 246 303 250 302 257 304 264 303 266 307 267 326 271 344 269 347 273 351 277 351 278 354 284 354 282 357 281 362 276 367 281 375 281 380 275 394 263 401 258 400 251 406 240 404 233 410 227 410 221 422 218 422 204 415 191 413 188 406 174 406 169 409 162 418 146 422 147 420 141 414 137 405 131 400 127 387 123 380 123 372 113 372 112 369 115 365 115 361 111 361 112 355 105 352Z"/></a><a href="#territoire" class="commune" data-nom="Viscomtat" aria-label="Viscomtat"><path class="col-sable" d="M349 416 356 413 372 410 389 389 398 391 397 383 407 384 410 383 419 370 419 366 417 363 422 354 435 365 440 368 447 378 452 381 461 386 466 380 468 395 475 394 477 413 481 420 476 426 475 436 472 439 468 440 464 447 470 459 466 470 457 486 450 481 439 481 434 470 424 470 423 468 420 475 411 478 399 477 390 475 377 462 373 460 374 452 371 448 369 439 365 436 355 421Z"/></a><a href="#territoire" class="commune" data-nom="Vollore-Montagne" aria-label="Vollore-Montagne"><path class="col-olive" d="M366 498 370 486 369 474 373 460 377 462 390 475 399 477 411 478 420 475 423 468 424 470 434 470 439 481 450 481 457 486 455 490 430 500 420 508 425 509 428 513 429 516 436 523 439 529 454 525 460 533 472 535 486 544 496 561 493 567 484 575 479 586 471 583 465 583 460 577 460 575 451 569 451 564 445 563 435 566 433 560 428 559 418 563 413 558 409 558 396 561 392 559 387 561 382 561 380 558 377 560 375 564 369 563 369 555 372 544 365 531 374 517 373 510 368 499Z"/></a><a href="#territoire" class="commune" data-nom="Vollore-Ville" aria-label="Vollore-Ville"><path class="col-rouge" d="M225 523 234 522 243 513 243 502 246 497 249 484 255 479 262 479 267 462 272 469 284 468 298 474 303 472 313 474 321 473 329 481 339 484 343 484 348 480 352 480 362 488 364 496 368 499 373 510 374 517 373 521 365 531 372 544 369 555 369 563 368 566 350 561 338 562 332 567 332 570 336 577 330 580 326 576 326 570 318 567 314 568 310 567 307 562 305 562 293 565 289 569 283 569 277 574 261 578 254 576 243 552 241 541 235 532 227 528Z"/></a><g aria-hidden="true"><text class="etiquette-commune" x="198" y="583" text-anchor="middle">Courpière</text><text class="etiquette-commune" x="114" y="125" text-anchor="middle">Puy-Guillaume</text><text class="etiquette-commune" x="185" y="345" text-anchor="middle">Thiers</text></g></svg>
+          <p class="infobulle" hidden aria-hidden="true"></p>
+          <div class="trouver-ligne">
+          <form class="trouver" action="#" data-trouver>
+            <label for="trouver-commune">Trouver ma commune</label>
+            <div class="recherche-ligne">
+              <input id="trouver-commune" type="text" list="communes-liste" placeholder="Ex. : Courpière" autocomplete="off">
+              <button class="bouton-plein" type="submit">Afficher</button>
+            </div>
+            <datalist id="communes-liste"><option>Arconsat</option><option>Aubusson-d&#x27;Auvergne</option><option>Augerolles</option><option>Celles-sur-Durolle</option><option>Chabreloche</option><option>Charnat</option><option>Châteldon</option><option>Courpière</option><option>Dorat</option><option>Escoutoux</option><option>La Monnerie-le-Montel</option><option>La Renaudie</option><option>Lachaux</option><option>Noalhat</option><option>Néronde-sur-Dore</option><option>Olmet</option><option>Palladuc</option><option>Paslières</option><option>Puy-Guillaume</option><option>Ris</option><option>Saint-Flour-l&#x27;Étang</option><option>Saint-Rémy-sur-Durolle</option><option>Saint-Victor-Montvianeix</option><option>Sainte-Agathe</option><option>Sauviat</option><option>Sermentizon</option><option>Thiers</option><option>Viscomtat</option><option>Vollore-Montagne</option><option>Vollore-Ville</option></datalist>
+            <p class="recherche-message" aria-live="polite" data-trouver-message></p>
+          </form>
+          <details class="liste-communes">
+            <summary>Voir la liste des 30 communes</summary>
+            <ul><li><a href="#territoire">Arconsat</a></li><li><a href="#territoire">Aubusson-d&#x27;Auvergne</a></li><li><a href="#territoire">Augerolles</a></li><li><a href="#territoire">Celles-sur-Durolle</a></li><li><a href="#territoire">Chabreloche</a></li><li><a href="#territoire">Charnat</a></li><li><a href="#territoire">Châteldon</a></li><li><a href="#territoire">Courpière</a></li><li><a href="#territoire">Dorat</a></li><li><a href="#territoire">Escoutoux</a></li><li><a href="#territoire">La Monnerie-le-Montel</a></li><li><a href="#territoire">La Renaudie</a></li><li><a href="#territoire">Lachaux</a></li><li><a href="#territoire">Noalhat</a></li><li><a href="#territoire">Néronde-sur-Dore</a></li><li><a href="#territoire">Olmet</a></li><li><a href="#territoire">Palladuc</a></li><li><a href="#territoire">Paslières</a></li><li><a href="#territoire">Puy-Guillaume</a></li><li><a href="#territoire">Ris</a></li><li><a href="#territoire">Saint-Flour-l&#x27;Étang</a></li><li><a href="#territoire">Saint-Rémy-sur-Durolle</a></li><li><a href="#territoire">Saint-Victor-Montvianeix</a></li><li><a href="#territoire">Sainte-Agathe</a></li><li><a href="#territoire">Sauviat</a></li><li><a href="#territoire">Sermentizon</a></li><li><a href="#territoire">Thiers</a></li><li><a href="#territoire">Viscomtat</a></li><li><a href="#territoire">Vollore-Montagne</a></li><li><a href="#territoire">Vollore-Ville</a></li></ul>
+          </details>
+          </div>
+        </div>
+
+        <div>
+          <ul class="chiffres">
+            <li class="chiffre"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 0a40 40 0 0 1 40 40H0z" fill="#b2ab29"/></svg><strong>30</strong> <span>communes</span></li>
+            <li class="chiffre"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M0 40a20 20 0 0 1 40 0z" fill="#e6272d"/></svg><strong>38&nbsp;540</strong> <span>habitants</span></li>
+            <li class="chiffre"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 8 38 40H2z" fill="#36b094"/></svg><strong>624&nbsp;km²</strong> <span>de territoire</span></li>
+          </ul>
+
+          <div class="video">
+            <button class="video-facade" type="button" data-video data-youtube="">
+              <svg class="vignette" viewBox="0 0 600 400" aria-hidden="true" focusable="false">
+<defs><clipPath id="clip-video"><path d="M0 400V300A300 300 0 0 1 600 300V400Z"/></clipPath></defs>
+<!-- EMPLACEMENT PHOTO vidéo : img/photo-video.webp, format 3:2 -->
+<image href="/images/vignette-video.webp" x="0" y="0" width="600" height="400" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-video)"/>
+<path d="M600 400V280A120 120 0 0 0 480 400Z" fill="#b2ab29"/></svg>
+              <span class="video-lecture"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true" focusable="false"><path d="M5 3l16 9-16 9z"/></svg></span>
+              <span class="visuellement-cache">Lire la vidéo : Découvrir Thiers Dore et Montagne</span>
+            </button>
+            <h3>Découvrir Thiers Dore et Montagne</h3>
+            <p class="video-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" focusable="false"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 11h4M6 15h8M13 11h5"/></svg> Vidéo sous-titrée, chargée seulement si vous cliquez</p>
+            <p class="video-message" aria-live="polite" data-video-message></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lettre-section" aria-labelledby="titre-lettre">
+    <div class="conteneur">
+      <div class="lettre">
+        <div class="lettre-texte">
+          <p class="surtitre">La lettre de l'interco</p>
+          <h2 id="titre-lettre">Les infos pratiques de votre commune, directement par mail.</h2>
+          <p class="lettre-intro">Collectes, horaires, événements près de chez vous. Un envoi par mois, pas plus.</p>
+          <form action="#" novalidate data-lettre>
+            <div class="lettre-champs">
+              <div>
+                <label for="lettre-email">Votre adresse e-mail</label>
+                <input id="lettre-email" type="email" autocomplete="email" placeholder="nom@exemple.fr" aria-describedby="lettre-email-erreur">
+                <span class="erreur" id="lettre-email-erreur"></span>
+              </div>
+              <div>
+                <label for="lettre-commune">Votre commune</label>
+                <select id="lettre-commune"><option value="">Choisissez</option><option>Arconsat</option><option>Aubusson-d&#x27;Auvergne</option><option>Augerolles</option><option>Celles-sur-Durolle</option><option>Chabreloche</option><option>Charnat</option><option>Châteldon</option><option>Courpière</option><option>Dorat</option><option>Escoutoux</option><option>La Monnerie-le-Montel</option><option>La Renaudie</option><option>Lachaux</option><option>Noalhat</option><option>Néronde-sur-Dore</option><option>Olmet</option><option>Palladuc</option><option>Paslières</option><option>Puy-Guillaume</option><option>Ris</option><option>Saint-Flour-l&#x27;Étang</option><option>Saint-Rémy-sur-Durolle</option><option>Saint-Victor-Montvianeix</option><option>Sainte-Agathe</option><option>Sauviat</option><option>Sermentizon</option><option>Thiers</option><option>Viscomtat</option><option>Vollore-Montagne</option><option>Vollore-Ville</option></select>
+              </div>
+              <button class="bouton-plein" type="submit">Je m'inscris</button>
+            </div>
+            <div class="consentement">
+              <input id="lettre-accord" type="checkbox" aria-describedby="lettre-accord-erreur">
+              <div>
+                <label for="lettre-accord">J'accepte de recevoir la lettre de l'interco. Désinscription en un clic à tout moment.</label>
+                <span class="erreur" id="lettre-accord-erreur"></span>
+                <a href="#">Données personnelles</a>
+              </div>
+            </div>
+            <p class="lettre-message" aria-live="polite" data-lettre-message></p>
+          </form>
+        </div>
+        <div class="lettre-mosaique"><svg viewBox="0 0 800 800" shape-rendering="crispEdges" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect x="0" y="0" width="100" height="100" fill="#e6272d"/><path d="M100 100L0 100A100 100 0 0 1 100 0Z" fill="#16393a"/><path d="M100 0H200V100Z" fill="#f7f5ef"/><rect x="200" y="0" width="100" height="100" fill="#b3c89f"/><path d="M300 100A50 50 0 0 1 400 100Z" fill="#b3c89f"/><rect x="400" y="0" width="100" height="100" fill="#2d7c7f"/><path d="M500 100L400 100A100 100 0 0 1 500 0Z" fill="#e6272d"/><rect x="500" y="0" width="100" height="100" fill="#16393a"/><circle cx="550" cy="50" r="30" fill="#e6272d"/><circle cx="650" cy="50" r="42" fill="#f7f5ef"/><path d="M700 0L800 100A100 100 0 0 1 700 0Z" fill="#2d7c7f"/><rect x="0" y="100" width="100" height="100" fill="#16393a"/><path d="M100 200L0 200A100 100 0 0 1 100 100Z" fill="#e6272d"/><rect x="100" y="100" width="100" height="100" fill="#2d7c7f"/><path d="M100 100A50 50 0 0 0 200 100Z" fill="#16393a"/><rect x="300" y="100" width="100" height="100" fill="#f7f5ef"/><path d="M300 100H400V200Z" fill="#2d7c7f"/><path d="M400 200L400 100A100 100 0 0 1 500 200Z" fill="#b3c89f"/><circle cx="550" cy="150" r="42" fill="#e6272d"/><rect x="600" y="100" width="100" height="100" fill="#16393a"/><circle cx="650" cy="150" r="30" fill="#2d7c7f"/><rect x="700" y="100" width="100" height="100" fill="#e6272d"/><path d="M700 100L800 200A100 100 0 0 1 700 100Z" fill="#f7f5ef"/><rect x="0" y="200" width="100" height="100" fill="#f7f5ef"/><path d="M0 200V300H100Z" fill="#b3c89f"/><rect x="100" y="200" width="100" height="100" fill="#e6272d"/><circle cx="150" cy="250" r="30" fill="#b3c89f"/><rect x="200" y="200" width="100" height="100" fill="#16393a"/><circle cx="350" cy="250" r="42" fill="#f7f5ef"/><rect x="400" y="200" width="100" height="100" fill="#e6272d"/><path d="M400 200A50 50 0 0 0 500 200Z" fill="#2d7c7f"/><path d="M500 200L600 300A100 100 0 0 1 500 200Z" fill="#b3c89f"/><rect x="600" y="200" width="100" height="100" fill="#b3c89f"/><path d="M700 300L600 300A100 100 0 0 1 700 200Z" fill="#e6272d"/><path d="M700 200H800V300Z" fill="#16393a"/><rect x="0" y="300" width="100" height="100" fill="#2d7c7f"/><circle cx="50" cy="350" r="30" fill="#2d7c7f"/><rect x="100" y="300" width="100" height="100" fill="#e6272d"/><path d="M200 400L100 400A100 100 0 0 1 200 300Z" fill="#b3c89f"/><rect x="300" y="300" width="100" height="100" fill="#b3c89f"/><path d="M300 400L300 300A100 100 0 0 1 400 400Z" fill="#16393a"/><circle cx="450" cy="350" r="42" fill="#f7f5ef"/><rect x="500" y="300" width="100" height="100" fill="#2d7c7f"/><path d="M500 300H600V400Z" fill="#2d7c7f"/><path d="M600 400A50 50 0 0 1 700 400Z" fill="#b3c89f"/><rect x="700" y="300" width="100" height="100" fill="#e6272d"/><circle cx="750" cy="350" r="30" fill="#f7f5ef"/><rect x="0" y="400" width="100" height="100" fill="#b3c89f"/><rect x="200" y="400" width="100" height="100" fill="#2d7c7f"/><rect x="400" y="400" width="100" height="100" fill="#f7f5ef"/><rect x="600" y="400" width="100" height="100" fill="#16393a"/><circle cx="50" cy="550" r="42" fill="#16393a"/><rect x="100" y="500" width="100" height="100" fill="#f7f5ef"/><path d="M100 600L100 500A100 100 0 0 1 200 600Z" fill="#f7f5ef"/><rect x="300" y="500" width="100" height="100" fill="#16393a"/><path d="M400 600L300 600A100 100 0 0 1 400 500Z" fill="#b3c89f"/><rect x="400" y="500" width="100" height="100" fill="#e6272d"/><circle cx="450" cy="550" r="30" fill="#2d7c7f"/><rect x="500" y="500" width="100" height="100" fill="#e6272d"/><path d="M500 500A50 50 0 0 0 600 500Z" fill="#16393a"/><path d="M600 500V600H700Z" fill="#f7f5ef"/><circle cx="750" cy="550" r="42" fill="#2d7c7f"/><rect x="0" y="600" width="100" height="100" fill="#16393a"/><path d="M0 600A50 50 0 0 0 100 600Z" fill="#e6272d"/><circle cx="150" cy="650" r="42" fill="#16393a"/><rect x="200" y="600" width="100" height="100" fill="#e6272d"/><rect x="300" y="600" width="100" height="100" fill="#2d7c7f"/><circle cx="350" cy="650" r="30" fill="#f7f5ef"/><rect x="400" y="600" width="100" height="100" fill="#b3c89f"/><path d="M400 600V700H500Z" fill="#b3c89f"/><rect x="500" y="600" width="100" height="100" fill="#16393a"/><path d="M600 600L600 600A100 100 0 0 1 500 700Z" fill="#e6272d"/><rect x="600" y="600" width="100" height="100" fill="#2d7c7f"/><path d="M700 700L600 700A100 100 0 0 1 700 600Z" fill="#16393a"/><path d="M700 700A50 50 0 0 1 800 700Z" fill="#f7f5ef"/><path d="M0 700L100 800A100 100 0 0 1 0 700Z" fill="#b3c89f"/><rect x="100" y="700" width="100" height="100" fill="#b3c89f"/><path d="M100 700H200V800Z" fill="#e6272d"/><rect x="300" y="700" width="100" height="100" fill="#2d7c7f"/><path d="M300 700A50 50 0 0 0 400 700Z" fill="#f7f5ef"/><rect x="400" y="700" width="100" height="100" fill="#e6272d"/><path d="M500 800L400 800A100 100 0 0 1 500 700Z" fill="#2d7c7f"/><rect x="500" y="700" width="100" height="100" fill="#b3c89f"/><circle cx="550" cy="750" r="30" fill="#f7f5ef"/><circle cx="650" cy="750" r="42" fill="#e6272d"/><rect x="700" y="700" width="100" height="100" fill="#16393a"/><path d="M800 700L800 700A100 100 0 0 1 700 800Z" fill="#16393a"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied sur-fonce">
+  <div class="conteneur">
+    <div class="pied-grille">
+      <div>
+        <a class="pied-logo" href="#"><img src="/images/logo-pied.webp" width="302" height="56" alt="Thiers Dore et Montagne, l'interco — accueil"></a>
+        <address>
+          <p><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 22s-7-7.2-7-12a7 7 0 0 1 14 0c0 4.8-7 12-7 12z"/></svg><span>47 avenue du Général de Gaulle<br>63300 Thiers</span></p>
+          <p><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M6 2h4l2 5-2.5 1.5a11 11 0 0 0 6 6L17 12l5 2v4a2 2 0 0 1-2 2A18 18 0 0 1 4 4a2 2 0 0 1 2-2z"/></svg><a href="tel:+33473532471">04 73 53 24 71</a></p>
+          <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Du lundi au vendredi<br>8h30–12h et 13h30–17h</span></p>
+        </address>
+        <a class="bouton-contour" href="#">Nous écrire</a>
+      </div>
+
+      <div>
+        <h2>Services</h2>
+        <ul class="pied-liens">
+          <li><a href="#">Collecte et déchèteries</a></li>
+          <li><a href="#">Centre aquatique</a></li>
+          <li><a href="#">L'Orangerie</a></li>
+          <li><a href="#">Accueils de loisirs</a></li>
+          <li><a href="#">Offres d'emploi</a></li>
+          <li><a href="#">Offres immobilières</a></li>
+          <li><a href="#">Espace France Services</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>L'interco</h2>
+        <ul class="pied-liens">
+          <li><a href="#">Le territoire</a></li>
+          <li><a href="#">Les 30 communes</a></li>
+          <li><a href="#">Vos élus</a></li>
+          <li><a href="#">Délibérations et publications</a></li>
+          <li><a href="#">Marchés publics</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Liens utiles</h2>
+        <ul class="pied-liens">
+          <li><a href="#">Billetterie Livradois-Forez <svg class="externe" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false" style="display:inline;vertical-align:-1px"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg><span class="visuellement-cache"> (site externe)</span></a></li>
+          <li><a href="#">Taxe de séjour <svg class="externe" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false" style="display:inline;vertical-align:-1px"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg><span class="visuellement-cache"> (site externe)</span></a></li>
+          <li><a href="#">Vacances en Livradois-Forez <svg class="externe" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false" style="display:inline;vertical-align:-1px"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg><span class="visuellement-cache"> (site externe)</span></a></li>
+        </ul>
+        <ul class="reseaux" aria-label="Nous suivre">
+          <li><a href="#"><span class="rond"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8z"/></svg></span><span>Facebook</span></a></li>
+          <li><a href="#"><span class="rond"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></span><span>Instagram</span></a></li>
+          <li><a href="#"><span class="rond"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M2 8a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3zm8 1v6l5-3z"/></svg></span><span>YouTube</span></a></li>
+        </ul>
+        <p class="parc"><img src="/images/logo-parc-livradois-forez.webp" width="520" height="274" alt="Territoire du Parc naturel régional Livradois-Forez"></p>
+      </div>
+    </div>
+
+    <div class="pied-bas">
+      <p>© 2026 Communauté de communes Thiers Dore et Montagne</p>
+      <ul>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Données personnelles</a></li>
+        <li><a href="#">Gestion des cookies</a></li>
+        <li><a href="#">Plan du site</a></li>
+        <li><a href="#">Accessibilité : totalement conforme (objectif)</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>

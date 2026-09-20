@@ -1,0 +1,144 @@
+# Configuration CloudCannon
+# Ce qui figure dans _inputs est modifiable par l'équipe.
+# Tout le reste de la page (menu, pied de page, structure) n'est pas exposé
+# et ne peut donc pas être touché depuis l'éditeur.
+
+source: src
+
+paths:
+  static: ""
+  uploads: images/televersements
+
+timezone: Europe/Paris
+
+collections_config:
+  pages:
+    path: ""
+    glob:
+      - "*.njk"
+    name: Pages du site
+    icon: home
+    output: true
+    _enabled_editors:
+      - visual
+      - content
+
+    _inputs:
+      titre_principal:
+        type: text
+        label: Titre principal
+        comment: Le grand titre en haut de la page d'accueil.
+
+      intro:
+        type: html
+        label: Paragraphe d'introduction
+        options:
+          bold: true
+          italic: true
+          link: true
+
+      image_bandeau:
+        type: image
+        label: Image du haut de page
+        comment: Photo en forme d'arche, à droite du titre. Format portrait conseillé (3:4).
+
+      image_bandeau_alt:
+        type: text
+        label: Description de l'image du haut de page
+        comment: Lue à voix haute par les lecteurs d'écran. Décrivez ce que montre la photo.
+
+      image_grille:
+        type: image
+        label: Image de la grille des démarches
+        comment: Photo de la tuile située dans la grille. Format paysage conseillé.
+
+      image_grille_alt:
+        type: text
+        label: Description de l'image de la grille
+
+      horaires:
+        type: array
+        label: Horaires
+        comment: Trois lignes par défaut. Vous pouvez en ajouter, en retirer et les réordonner.
+        options:
+          structures: _structures.ligne_horaire
+
+      jour:
+        type: text
+        label: Jour ou période
+
+      heures:
+        type: text
+        label: Horaire
+
+      actualites:
+        type: array
+        label: Actualités
+        comment: Ajoutez, supprimez ou faites glisser une carte pour changer l'ordre.
+        options:
+          structures: _structures.actualite
+
+      titre:
+        type: text
+        label: Titre de l'actualité
+
+      date:
+        type: date
+        label: Date
+
+      etiquette:
+        type: text
+        label: Étiquette
+        comment: Le petit badge coloré, par exemple « Culture » ou « Exposition ».
+
+      etiquette_couleur:
+        type: select
+        label: Couleur de l'étiquette
+        options:
+          values:
+            - value: et-petrole
+              label: Pétrole
+            - value: et-rouge
+              label: Rouge
+            - value: et-eau
+              label: Vert d'eau
+            - value: et-olive
+              label: Olive
+
+      image:
+        type: image
+        label: Image de l'actualité
+
+      image_alt:
+        type: text
+        label: Description de l'image
+
+      texte:
+        type: html
+        label: Texte court
+        options:
+          bold: true
+          italic: true
+          link: true
+
+_structures:
+  ligne_horaire:
+    values:
+      - label: Ligne d'horaire
+        icon: schedule
+        value:
+          jour: "Nouveau jour"
+          heures: "10h – 18h"
+
+  actualite:
+    values:
+      - label: Actualité
+        icon: article
+        value:
+          titre: "Titre de la nouvelle actualité"
+          date: 2026-01-01
+          etiquette: "Actualité"
+          etiquette_couleur: et-petrole
+          image: /images/actu-1-terre-de-culture.webp
+          image_alt: ""
+          texte: "Quelques lignes de présentation."
