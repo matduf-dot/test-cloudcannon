@@ -19,9 +19,9 @@ collections_config:
     name: Pages du site
     icon: home
     output: true
-    _enabled_editors:
-      - visual
-      - content
+    # Pas de cle _enabled_editors ici : en nommer une seule desactive toutes les
+    # autres. L'editeur de donnees doit rester disponible, c'est le seul qui
+    # fonctionne tant qu'aucun build n'a tourne.
 
     _inputs:
       titre_principal:
